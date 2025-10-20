@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 10px;
+}
+
+.container :nth-child(1){
+    width: 50%;
+    height: 50%;
+    background-color: rgb(74, 62, 240);
+    border: 5px dotted aqua;
+    margin: 50px auto;
+}
+
+.container :nth-child(2){
+    width: 40%;
+    height: 40%;
+    background-color: rgb(74, 62, 240);
+    border: 5px solid aqua;
+    margin: 50px auto;
+
+}
