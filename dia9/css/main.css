@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div__div1 {
+    background-color: brown;
+    border: 2px solid burlywood;
+    width: 50vw;
+    height: 50vh;
+}
+
+.main-div__div2 {
+    background-color: rgb(148, 102, 9);
+    border: 2px solid burlywood;
+    width: 50vh;
+    height: 50vw;
+}
+
+.main-div__div3 {
+    background-color: rgb(202, 159, 72);
+    border: 2px solid burlywood;
+    width: 20em;
+    height: 20em;
+}
+
+.main-div__div4 {
+    border: 2px solid black;
+}
+
+.main-div__div5 {
+    border: 2px solid black;
+    background-color: red;
+    width: 50vw;
+    height: 50vw;
+    print-color-adjust: exact;
+}
+
+@media (min-width: 1200px) {
+    .main-div__div4 {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-div__div4 {
+        background-color: green;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1200px) {
+    .main-div__div4 {
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-div__div4 {
+        background-color: red;
+    }
+}
+
+@media print {
+    .main-div__div5 {
+        background-color: green;
+    }
+}
+
+
+.container {
+    container-type: inline-size;
+    background-color: aquamarine;
+    width: 50vw;
+    height: 50vh;
+}
+
+body {
+    container-type: inline-size;
+    background-color: white;
+    font-size: clamp(1rem, 2.5vw, 3rem);
+}
+
+@container (max-width: 700px) {
+    .main-div {
+        background-color: black;
+        color: white;
+    }
+}
