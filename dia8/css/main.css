@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+
+/*-------------- HEADER-------------------*/
+
+nav {
+    box-shadow: 2px 0px 10px -3px #f8b691;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 30px;
+    height: 100%;
+}
+
+a:hover {
+    border-bottom: 3px solid #f8b691;
+    padding-bottom: 10px
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.navbar__icon {
+    width: 40px;
+    margin: 20px;
+}
+
+/*-------------- MAIN-------------------*/
+main {
+    min-height: 100vh;
+    text-align: center;
+    margin: 30px 0px;
+}
+h2 {
+    margin: 10px auto;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 100px;
+    align-items: center;
+    justify-content: center;
+}
+.section__principal-image {
+    width: 100%;
+}
+
+.section__images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 30px 0px;
+}
+
+img {
+    width: 20%;
+    height: fit-content;
+}
+
+
+.section__map{
+    margin: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.section-gallery__container {
+    border: 1px solid rgb(159, 159, 159);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+
+.section-gallery__image {
+    width: 20%;
+    height: auto;
+    margin: 10px;
+}
+
+
+.section__principal-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section__text {
+    width: 50%;
+}
+
+/*-------------- FOOTER-------------------*/
+
+.footer-link__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: row;
+    padding: 10px 50px;
+}
+
+.footer-link__ref {
+    display: flex;
+    padding: 10px;
+    height: fit-content;
+
+    a {
+        text-decoration: underline;
+    }
+
+    a:hover {
+        padding-bottom: 0px
+    }
+}
+
+span {
+    padding: 10px;
+}
+
+footer {
+    background: #f8b691;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+   
+}
